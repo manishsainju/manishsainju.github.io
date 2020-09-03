@@ -43,19 +43,21 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
-    },
-    {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "java",
+      fontAwesomeClassname: "fab fa-java"
+    },{
+      skillName: "angular",
+      fontAwesomeClassname: "fab fa-angular"
+    },{
+      skillName: "atlassian",
+      fontAwesomeClassname: "fab fa-atlassian"
     },
     {
       skillName: "sass",
       fontAwesomeClassname: "fab fa-sass"
     },
     {
-      skillName: "JavaScript",
+      skillName: "JavaScript / typescript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
@@ -67,8 +69,8 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
     },
     {
       skillName: "npm",
@@ -83,12 +85,28 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
+      skillName: "linux",
+      fontAwesomeClassname: "fas fa-ubuntu"
     },
     {
       skillName: "python",
       fontAwesomeClassname: "fab fa-python"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "jenkins",
+      fontAwesomeClassname: "fab fa-jenkins"
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-docker"
+    },
+    {
+      skillName: "Power BI",
+      fontAwesomeClassname: "fab fa-chart-bar"
     },
     {
       skillName: "docker",
@@ -168,8 +186,8 @@ const bigProjects = {
   subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      link: "http://saayahealth.com/"
+      image: require("./assets/images/boondrive.png"),
+      link: "http://boondrive.com/"
     },
     {
       image: require("./assets/images/nextuLogo.webp"),
@@ -265,15 +283,15 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle: "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3243454077",
-  email_address: "saadpasta70@gmail.com"
+  number: "+977-9851001932",
+  email_address: "manis.sainju@gmail.com"
 };
 
 //Twitter Section
 
 const twitterDetails = {
 
-  userName : "twitter"//Replace "twitter" with your twitter username without @
+  userName : ""//Replace "twitter" with your twitter username without @
   
 };
 export { greeting, socialMediaLinks, skillsSection, techStack, workExperiences, openSource, bigProjects, achievementSection, blogSection, talkSection, podcastSection, contactInfo , twitterDetails};
